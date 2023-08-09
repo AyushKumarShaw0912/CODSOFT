@@ -1,0 +1,234 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+body{
+    background-color: rgb(15, 6, 48);
+    min-height: 100vh;
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.2rem;
+ 
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 20px;
+    position: sticky;
+    top: 0px;
+    background-color: black;
+}
+.items{
+    flex: 6;
+   
+}
+.nav-items{
+    display: flex;
+    gap: 30px;
+}
+a {
+    text-decoration: none;
+}
+.nav-item{
+   text-decoration: none;
+    list-style: none;
+    font-size: 1.2rem;
+    letter-spacing: 1.2px;
+    color: aliceblue;
+}
+.nav-item:hover{
+    color: rgb(152, 229, 19);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.logo{
+    flex: 3;
+    font-size: 2.3rem;
+display: flex;
+align-items: flex-start;
+font-weight: bold;
+margin-top: 10px;
+gap: 10px;
+}
+.info{
+    flex: 3;
+    display: flex;
+    margin-right: 20px;
+    justify-content: flex-end;
+    gap: 20px;
+}
+.icon{
+    height: 20%;
+}
+.icon:hover{
+   cursor: pointer;
+}
+.container{
+    display: flex;
+    margin-top: 20px;
+}
+.letter{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+   
+}
+.letter h1{
+   font-size: 4rem;
+   color:rgb(247, 247, 130);
+}
+.letter p{
+    font-size: 1.2rem;
+    margin-bottom: 7px;
+}
+.inputs{
+    margin-top: 15px;
+    width: 40%;
+    padding: 10px;
+    border-radius: 20px;
+}
+.btn{
+    margin-top: 15px;
+     padding: 10px;
+     width: 17%;
+     background-color: rgb(174, 199, 15);
+    border-radius: 20px;
+}
+.btn:hover{
+cursor: pointer;
+  background-color: rgb(90, 103, 4);
+}
+.img{
+    flex: 1;
+    margin-left: 40px;
+}
+.img img{
+    width: 100%;
+}
+.about{
+    margin: 25px;
+}
+.heading{
+   font-size:  2.5rem;
+   margin: 25px;
+   font-style: italic;
+   text-decoration: underline;
+}
+.about p{
+    font-size: 1.4rem;
+    color: #b3abab;
+}
+.services{
+    display: flex;
+    flex-direction: column;
+}
+.wrapper{
+    display: flex;
+}
+.service{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.photo{
+    width: 60%;
+    height: 60%;
+
+}
+.service p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 45px;
+    margin-top: 15px;
+    font-size: 1.2rem;
+    color: #d5c8c8;
+}
+.pic{
+    width: 100%;
+    height: 28vh;
+  
+    background-image: url("/assests/5.jpg");
+background-size: cover;
+    background-repeat: no-repeat;
+}
+.topic{
+    margin: 20px;
+    z-index: 10;
+    color: #000;
+    font-size: 1.5rem;
+}
+.subheading{
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+.button{
+    padding: 15px;
+    margin: auto;
+    font-size: 1.3rem;
+    display: flex;
+  
+    background-color: #e1c80b;
+    border-radius: 10px;
+align-items: center;
+justify-content: center;}
+.button:hover{
+    cursor: pointer;
+    background-color: #8e7d04;
+}
+.contacts{
+    margin-top: 1.4rem;
+     margin: 1.5rem;
+}
+.socials{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.socials span{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    font-style: italic;
+}
+.social{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 15px;
+    margin-right: 20px;
+}
+.social span{
+    font-size: 1.6rem;
+}
+.social-icons{
+    display: flex;
+    gap: 15px;
+}
+.infos{
+    margin-top: 10px;
+    display: flex;
+}
+.address{
+    gap: 25px;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.4rem;
+    flex: 1;
+}
+.address p{
+    font-size: 1.7rem;
+    color: #c4e00d;
+    ;
+}
+.faq{
+    flex: 1;
+    margin-left: 20px;
+    gap: 12px;
+    display: flex;flex-direction: column;
+}

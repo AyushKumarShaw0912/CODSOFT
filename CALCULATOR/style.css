@@ -1,0 +1,117 @@
+*{
+    margin: 0;padding: 0;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img{
+    opacity: 0.5;
+}
+h1{
+    position: absolute;
+    text-align: center;
+    color: #33010c;
+    top: 35vh;
+    left: 25%;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-size:2.7rem;
+}
+.main{
+    position:relative;
+   display: grid;
+   place-items: center;
+ background-image: linear-gradient(rgb(60, 68, 63),rgb(30, 22, 22));
+   border-radius: 10px;
+top: 45vh;
+left: 40%;
+align-items: center;
+  max-width: 19vw;
+  min-height: 46.5vh;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.input input{
+    margin-top: 1.25rem;
+    margin-right: 10px;
+    max-width: 15vw;
+    min-height: 5vh;
+    border: 1px solid #000;
+    border-radius: 4px;
+    background-color: rgb(206, 204, 204);
+    color: rgb(27, 25, 25);
+    font-weight: 500;
+    font-size: 17px;
+    text-align: end;
+}
+.row{
+margin-top: 10px;
+margin-bottom: 2px;
+
+
+}
+button{
+    padding:15px 18px 0px 15px;
+    width:50px;
+    border: 1px solid rgb(84, 61, 61);
+    border-radius: 4px;
+    background-color: black;
+    text-align: center;
+    font-weight: 500;
+    font-size: 17px;
+    
+
+}
+#c{
+    background-color: rgb(64, 64, 2);
+    color: rgb(251, 244, 244);
+}
+#off{
+    padding-right: 35px;
+}
+#mrc{
+    padding-right: 15px;
+    font-size: 14px;
+    padding-top: 18px;
+}
+button:hover{
+    cursor: pointer;
+    font-weight:bolder;
+    color: bisque;
+    box-shadow: rgba(241, 234, 234, 0.732) 1.95px 1.95px 2.6px;
+}
+
+@media (max-width:1000px) 
+{
+    body{
+        background-image: none;
+    }
+    h1{
+        position: absolute;
+        top: 10%;
+       
+        font-size:2rem;
+        text-align: center;
+    }
+    .main{
+        border-radius: 5px;
+        position: relative;
+        top: 25vh;
+    }
+    .row{
+        margin-top: 7x;
+        margin-bottom: 1.5px;
+        
+        
+        }
+    button{
+        padding:10px 12px 0px 10px;
+        width:30px;
+        font-size: .8rem;
+    }
+    
+}
